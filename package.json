@@ -1,0 +1,15 @@
+{
+  "name": "eslint-config-5448c8",
+  "main": "index.js",
+  "type": "module",
+  "dependencies": {
+    "eslint": "^9.22.0",
+    "eslint-config-prettier": "^10.1.1",
+    "eslint-plugin-prettier": "^5.2.3",
+    "eslint-plugin-react": "^7.37.4",
+    "typescript-eslint": "^8.26.1"
+  },
+  "peerDependencies": {
+    "typescript": "*"
+  }
+}
