@@ -1,5 +1,6 @@
 {
   "name": "eslint-config-5448c8",
+  "version": "1.0.0",
   "main": "index.js",
   "type": "module",
   "dependencies": {
@@ -11,5 +12,10 @@
   },
   "peerDependencies": {
     "typescript": "*"
-  }
+  },
+  "files": [
+    "index.js",
+    "package.json",
+    "package-lock.json"
+  ]
 }
