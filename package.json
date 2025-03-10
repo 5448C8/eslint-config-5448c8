@@ -3,6 +3,9 @@
   "version": "1.0.0",
   "main": "index.js",
   "type": "module",
+  "scripts": {
+    "test": "exit 0"
+  },
   "dependencies": {
     "eslint": "^9.22.0",
     "eslint-config-prettier": "^10.1.1",
