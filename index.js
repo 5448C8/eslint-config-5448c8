@@ -7,6 +7,11 @@ export default {
   files: ["**/*.{js,jsx,mjs,cjs,ts,tsx}"],
   languageOptions: { parser: tseslint.parser, sourceType: "module", parserOptions: { ecmaFeatures: { jsx: true } } },
   plugins: { "@typescript-eslint": tseslint.plugin, react, prettier },
+  settings: {
+    react: {
+      version: "detect",
+    },
+  },
   rules: {
     "array-callback-return": "error",
     "constructor-super": "error",
